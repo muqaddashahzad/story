@@ -17,11 +17,11 @@
 ## Installations
 - You can use either this command
  ```bash
-  [ -f "evm-contract.sh" ] && rm evm-contract.sh; wget -q https://github.com/muqaddashahzad/story/blob/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
+  [ -f "evm-contract.sh" ] && rm evm-contract.sh; wget -q https://raw.githubusercontent.com/muqaddashahzad/story/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
 ```
 - Or this command to run this script
 ```bash
-  [ -f "evm-contract.sh" ] && rm evm-contract.sh; curl -sSL -o evm-contract.sh https://github.com/muqaddashahzad/story/blob/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
+  [ -f "evm-contract.sh" ] && rm evm-contract.sh; curl -sSL -o evm-contract.sh https://raw.githubusercontent.com/muqaddashahzad/story/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
 ```
 ## Troubleshooting
 - If you r facing issues like `curl command not found` then use this command to install curl and then run the above installation command that starts with curl
