@@ -26,7 +26,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit
 
 install_dependencies() {
-    CONTRACT_NAME="ZunXBT"
+    CONTRACT_NAME="Ilmeaalim"
 
     if [ ! -d ".git" ]; then
         show "Initializing Git repository..." "progress"
@@ -35,7 +35,7 @@ install_dependencies() {
 
     if ! command -v forge &> /dev/null; then
         show "Foundry is not installed. Installing now..." "progress"
-        source <(wget -O - https://github.com/muqaddashahzad/story/blob/main/foundry.sh)
+        source <(wget -O - https://raw.githubusercontent.com/muqaddashahzad/story/main/foundry.sh)
     fi
 
     if [ ! -d "$SCRIPT_DIR/lib/openzeppelin-contracts" ]; then
@@ -45,6 +45,7 @@ install_dependencies() {
         show "OpenZeppelin Contracts already installed."
     fi
 }
+
 
 input_required_details() {
     echo -e "-----------------------------------"
