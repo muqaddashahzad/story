@@ -17,7 +17,7 @@
 ## Installations
 - You can use either this command
  ```bash
- [ -f "evm-contract.sh" ] && rm evm-contract.sh; wget -q https://raw.githubusercontent.com/muqaddashahzad/story/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
+[ -f "evm-contract.sh" ] && rm evm-contract.sh; wget -q https://raw.githubusercontent.com/muqaddashahzad/story/main/evm-contract.sh && chmod +x evm-contract.sh && ./evm-contract.sh
 ```
 - Or this command to run this script
 ```bash
